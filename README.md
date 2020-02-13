@@ -92,5 +92,5 @@ As a user, I should be able to enter in an point of interest, and associate it w
 
 ## Technical Requirements
 
-1. The application should be built using Webpack to assist your development process.
+1. The application should be built in a modular way in accordance with the principle of _Separation of Concerns_.
 1. For persistent data storage, use [json-server](https://github.com/typicode/json-server). 
