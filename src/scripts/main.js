@@ -1,3 +1,9 @@
-import eventListenerHandler from "./events.js"
+import eventListenerHandler from "./events.js";
+import apiManager from "./apiManager.js";
+import renderInterests from "./dom.js"
 
-eventListenerHandler.saveInterestAddEventListener()
+apiManager.getAllInterestEntryData().then(renderInterests)
+eventListenerHandler.editButtonAddEventListener()
+
+
+eventListenerHandler.saveInterestAddEventListener();

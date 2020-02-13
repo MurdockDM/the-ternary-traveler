@@ -31,7 +31,31 @@
       "description": "Sandy",
       "cost": "0.01",
       "review": "",
+      "id": 2
+    },
+    {
+      "placeId": 3,
+      "name": "Museum",
+      "description": "Interesting art museum downtown",
+      "cost": "17.53",
+      "review": "",
       "id": 3
+    },
+    {
+      "placeId": 2,
+      "name": "Mountaintop Chalet",
+      "description": "Really cool Chalet",
+      "cost": "42.71",
+      "review": "",
+      "id": 4
+    },
+    {
+      "placeId": 3,
+      "name": "French Restaurant",
+      "description": "Recommended for good French food.",
+      "cost": "114.73",
+      "review": "",
+      "id": 5
     }
   ]
 }
