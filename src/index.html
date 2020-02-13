@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Places of Interest</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <article id="editInterestsContainer">
+      <section>
+        <h2>Add or Edit Interests</h2>
+      </section>
+      <section>
+        <fieldset class="dataEntryField">
+            <label for="interestName">Name of Point of Interest</label>
+            <input type="text" id="interestName" name="interestName"/>
+        </fieldset class="dataEntryField">
+      </section>
+      <section>
+        <fieldset class="dataEntryField">
+            <label for="interestDescription">Description of Interest</label>
+            <input type="text" id="interestDescription" name="interestDescription" />
+        </fieldset class="dataEntryField">
+      </section>
+      <section>
+        <fieldset class="dataEntryField">
+            <label for="interestCost">Cost</label>
+            <input type="number" min="0" step="0.01" id="interestCost" name="interestCost" />
+        </fieldset class="dataEntryField">
+      </section>
+      <section>
+          <fieldset class="dataEntryField">
+              <label for="interestReview">Review</label>
+              <input type="text" id="interestReview" name="interestReview" >
+            </fieldset class="dataEntryField">
+      </section>
+      <section>
+        <fieldset class="dataEntryField">
+          <label for="countryChoice">Select a Country</label>
+          <select name="countryChoice" id="countryChoice">
+            <option value="Italy">Italy</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="France">France</option>
+          </select>
+        </fieldset class="dataEntryField">
+      </section>
+      <section>
+        <input type="button" id="interestSaveBtn" value="Save Interest">
+      </section>
+    </article>
+
+    <article id="interestsAddedContainer"></article>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
